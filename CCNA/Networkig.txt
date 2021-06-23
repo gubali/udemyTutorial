@@ -1,0 +1,11 @@
+OSI: Open system interconnection
+8P8C: 8 position 8 connector
+UDP: User datagram protocol
+RFC: Request for comments: information communiccations technology
+IETF: Internet Enginering Task Force
+
+protocol: degines rules syntax semantic and synchronization of communication and possible error recovery
+
+
+OSI: PDNTSPA
+TCP/IP: PDNTA
