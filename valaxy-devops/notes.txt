@@ -1,0 +1,43 @@
+
+akkutaws@gmail.com/aws
+
+finad java oath: find /usr/lib/jvm/java-1.8* | head -n 3    /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre
+yum reove java_version
+
+
+git: Source code managemnt 
+jenkins: ci/cd pipel
+maven: build tool
+ansible: configuration managemnt and deployment service
+
+docker: target environment to host application
+kubernetese: to manage docker conatiner
+
+staging: target environment
+
+CI (Continious Integration): Continuous integration is a DevOps software development practice where developers regularly merge their code changes into a central repository,
+ after which automated builds and tests are run ontinuous integration are to find and address bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates.
+
+CD: (Continious Delivery):  continuous delivery, code changes are automatically built, tested, and prepared for a release to production. Continuous delivery expands upon continuous integration by
+deploying all code changes to a testing environment and/or a production environment after the build stage.
+
+CD: (Continious deployment): Continuous Deployment (CD) is a software release process that uses automated testing to validate if 
+changes to a codebase are correct and stable for immediate autonomous deployment to a production environment.
+
+
+
+
+1) dev ==> push ==> git : CI
+2) dev ==> push ==> git ==> artifact: ===> deloy to target environemnt: CD
+
+   1,2 ==> called Continuous Deployment
+
+
+
+   ==================================command===================================
+
+   service jenkins status
+
+   manven projec path: /var/lib/jenkins/workspace/
+
+   maven target: clean install
