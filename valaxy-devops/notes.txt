@@ -41,3 +41,6 @@ changes to a codebase are correct and stable for immediate autonomous deployment
    manven projec path: /var/lib/jenkins/workspace/
 
    maven target: clean install
+
+
+   war deployment credential: deployer/deployer
