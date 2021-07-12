@@ -1,0 +1,42 @@
+what is angular =====>
+-java script binding framework whoch binds the HTML uiand java script model. and helps you to implement MVC.
+-reduce the effort to writing business logic.
+- help to build spa 
+- binding framework: follow MVC pattern
+
+angular js: 
+  language  - java script language
+  archetecture   - controller
+server side: NO
+SEO: NO
+lazy loading: NO
+CLI: NO
+MObile compilient: NO
+
+
+Angular:
+ - 2,4,5,6..9 ivy
+language - typescript
+archetecture: component
+server side: Yes
+SEO: Yes
+lazy loading: Yes
+CLI: Yes
+MObile compilient: Yes
+
+
+What are directive in angular ====>
+
+- attach behaviour to html dom.
+- directive chnage the behaviour of HTML DOM
+- [()], {}}, [hidden]
+
+
+Type of the directive in angular ====>
+
+- Strutural
+  - chnage the DOM layout by addding and removing element
+- Attribute
+- Component
+
+

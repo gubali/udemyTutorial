@@ -33,10 +33,19 @@ changes to a codebase are correct and stable for immediate autonomous deployment
    1,2 ==> called Continuous Deployment
 
 
+automate every build :pollscm * * * * * * : every hmmt
+
+
+*******adminkhan/P@$$w0rddocker
+
+docker hub: image repo 
 
    ==================================command===================================
 
    service jenkins status
+   sudo service jenkins restart
+$ sudo service jenkins stop
+$ sudo service jenkins start
 
    manven projec path: /var/lib/jenkins/workspace/
 
@@ -44,3 +53,8 @@ changes to a codebase are correct and stable for immediate autonomous deployment
 
 
    war deployment credential: deployer/deployer
+
+
+   docker ps: list of all running conatiners
+   service docker status 
+   service docker start
