@@ -35,8 +35,22 @@ What are directive in angular ====>
 Type of the directive in angular ====>
 
 - Strutural
-  - chnage the DOM layout by addding and removing element
+  - change the DOM layout by addding and removing element
+
 - Attribute
+ [hidden]: not chnage structure only chnge behaviour
+
 - Component
+  user control which has own template
+
+what is NPM and node_modules ====>
+
+NPM: Node pacjmahe manager (js framework linrary)
+node_modules: where package are installed.
+
+what is package.json ====>
+where js framework is listed down
+
+
 
 

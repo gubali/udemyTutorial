@@ -1,0 +1,44 @@
+Company MERN Program ================> Target to get certificate
+
+1) Modules
+2) Components
+3) Tempaltes
+4) Data binding
+5) Meta Data
+6) Diretcives
+7) Services
+
+1) command to generate angular
+
+ng new project_name
+
+folder structure =============>
+e2e: test script for testing your application
+node_modules: all npm package 
+dist: when build project_name
+packgage.json: which lib is installed.
+tsconfig: compiler options
+@Module decoration: 
+polyfill: browser compatubility
+
+style.css: global style
+css: style
+html:view UI
+ts:define hevaviour of application
+spec.ts: test bed
+
+
+Angualr architectre:
+Module:  
+
+Basic building block:
+Modules
+Components
+Tempaltes
+Data binding
+Meta data
+Diretcives
+Service 
+Services
+DEpedency injenction
+

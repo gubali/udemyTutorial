@@ -1,0 +1,66 @@
+Server never wait to response API.
+
+Node js heart: Event Loop
+Event Queue: 
+internal thread pool: 
+
+I/O bound
+Data streaming
+DIRT(Data intensive Real Application)
+
+Node js not suitable: CPU Application.
+
+Day 2: 
+
+NPM (Node Package Manager) : Provide online repository
+
+REPL: Read–eval–print loop
+Intereactive mode (similer to unix shell)
+Read: reads the user input, parse input into 
+Eval:it takes and evaluate data structure
+print: show result
+loop:waiting for next loop
+
+nOde js commnad:
+
+os
+process
+
+** Callback function: called when task is completed. other code to run 
+exp: calling API, I/O operation, Data base
+allows our code to 
+
+
+** Event Loop
+node js impleneted: single thread model.
+
+Node js module:
+Express Framework
+Socket IO : Real time bi-retional event base commnunication
+Jade
+MongoDb: store data in the form of key value pair.
+BlueBird
+
+1) file system
+2) http
+
+Build-in Modules
+ - Pre Package
+ like : Crypto, File System
+
+Third Party Modules
+ Module contributed by comunity
+ like: npm install
+
+User Created modules
+ cretae by user in a modularized way
+
+ npm serach express
+
+ Module access by : require() Method
+
+ Thump rule:
+ 
+
+File system operation:
+fs.open(callback, flag, mode, callback)

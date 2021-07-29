@@ -1,0 +1,61 @@
+1) Cloud Computing:  ====>
+on demand delivery of computer power,db,storage application
+pay as you go pricing
+
+2) deloyment model
+private Cloud
+public Cloud
+Hybrid
+
+CAPEX: Capotal expenses
+OPEX: OPerational Expense
+
+3) Type of cloud Computing
+  Iaas: Infrastructure as a Services (provice n/w, data stoarge etc)
+   like: Ec2 on AWS
+
+  Paas: Plateform as service
+     Remove the need of your organization to manage the underlying Infrastructure
+    Focus on the deployment  and manage of your application
+    like: Elastic beanstalk in AWS
+
+Saas:Software as service
+     completed prpoduct run and manage by serice provider.
+     like: Rekignition for ML, Zoom, DropBox
+========================================================
+On premises: Manage everything
+     Application+ Data + Runtime + Midleware + Os + Virtualization + Servers + Storage + Networking
+
+Iaas: Application+ Data + Runtime + Midleware + Os
+Paas: Plateform as aservice: Application+ Data
+Saas: everyting manage by aws ( Application+ Data + Runtime + Midleware + Os + Virtualization + Servers + Storage + Networking)
+
+Pricing:
+Compute: PAy for compute time
+Stoarge: Pay for data stored in the cloud
+Data taransfer OUT of cloud
+
+========================================================
+10) AWS overview
+   2004: pulicly laucnhed.
+
+AWS Global Infrastructure:
+ - Region (Cluster of data Center) min is 3 and max is 6 
+ - Avalibility zone ( discreate data center with redundant data center)
+ - Data center
+ - Edge  loation/ point of presense
+
+ Edge location:
+ 216 points of presense
+
+ 11) AWS region scoped:
+  - Amazon EC2 IA (Identity as a service)
+  - Elastic beanstalk
+  - Lambda (Function as a service)
+  - Rekignition (Software as a service)
+  
+ 12) Tour of the console & Service: 
+   
+Section 4: IAM (Identity and access managemnt)
+Policies: user or group can be assign JSON docuemnt called Policies + define Policies
+ 

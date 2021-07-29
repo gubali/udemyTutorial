@@ -40,6 +40,17 @@ automate every build :pollscm * * * * * * : every hmmt
 
 docker hub: image repo 
 
+
+18: integration with dockerhost with jenkins
+useradd dockeradmn
+passwd docekradmin
+cat /etc/group :: get list of user group
+[root@docker-host ~]# usermod -aG docker dockeradmin
+[root@docker-host ~]# id dockeradmin
+uid=1001(dockeradmin) gid=1001(dockera
+ip addr
+vi /etc/ssh/sshd_config  : ssh base authentication
+
    ==================================command===================================
 
    service jenkins status
@@ -56,5 +67,12 @@ $ sudo service jenkins start
 
 
    docker ps: list of all running conatiners
+   docker images: get list of focker images
+   docker run --name tomcat-container -p 8080:8080 tomcat:latest : create conatiner
+         -d: detached mode(run background)
+   docker exec -it tomcat-container /bin/bash: login to images
+   root@144656f4c05a:/usr/local/tomcat/webapps.dist# cp -R * ../webapps: copay all content inside webapps
+   docker run  -d --name tomcat-8 -p 8081:8080 tomcat:8.0  //new tomcat old
+   docker rm conatiner_name : remove container
    service docker status 
    service docker start
