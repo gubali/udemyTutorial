@@ -31,14 +31,92 @@ spec.ts: test bed
 Angualr architectre:
 Module:  
 
-Basic building block:
+** Basic building block:
+
 Modules
+ - Group of component,Diretcives, pipes, services
+ - if application is complex add feature Modules
+
 Components
+ - component which used to render a view and programs the behaviour
+ - component = .ts + html + .spec.ts + css
+
 Tempaltes
+ - inline templates: UI just showing header/footer simple set of element 
+ - separate .html
+
+ Meta data: Tell angular how to process a class
+
 Data binding
 Meta data
 Diretcives
 Service 
 Services
-DEpedency injenction
+Depedency injenction
+
+
+** Type Script
+Transpilling: .ts to convert into js calles Transpilling.
+
+Two way to change typescript to js.
+ 1) Transpile to java script into browser itself.
+ 2) Transpile to js  before shipping  to browser
+
+ feature: Object oriented, class interface , implement, extends
+Tupe: Can hold diff type of values
+
+*AOT 
+ng serve = Build(bundling all the application inoto one file) + Deploye
+
+JIT (Just In Time) Development MOde by developer
+ -Dynamic translation or run time compilation during the execution of the programs
+ a . use html, ts, css to develop application
+ b. use ng build to build source code into bundle 
+
+AOT(Ahead of time) Production deployment
+ - converting high level code into native m/c code b4 browser download and run.
+ - faster rendering
+ - smaller angualr framework
+ - detect template error earlier
+ - Better security
+ - ng build --prod build sorce code bundles
+ AOT build project flow = Code analysis + code generation + template type checking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

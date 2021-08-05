@@ -51,6 +51,67 @@ node_modules: where package are installed.
 what is package.json ====>
 where js framework is listed down
 
+************************** typescript *****************************************
+chek type script version: tsc --version
+
+1) What is typescript and why do we need it.?
+  - extends java script adding type to the language
+  - Super set of js (TYpe checl)
+  - gives nice oops progrmming environemnt which transpile / converts to java scipt.
+  - strongly type will have less error.
+
+** Compoent and module:
+ Compoent: where you write your binding
+ MOdule: Logically group Components
+
+ ** What is decorator.
+   - define what kind of angular class it.
+    exp: @Component: says it is angular component
+        @NgModule: become angulare module
+
+** What are the annotation or MetaData?
+
+** Type of Databinding
+  4 typw of bindng
+ - How view and controller communicate each other.
+  - Expression or INterpolation: {{}}
+  - Property binding (Square bracket): set values for properties of HTML elements [] - data flow from component to view
+  - 2 Way binding[()]: 
+  - Event binding (): send event from view to the component
+
+** Agular archetecture
+ - View + Component + Group of component called Module
+
+ 1) Tempplete: HTML View
+ 2) omponent: Bind view and model
+ 3) Modules: Group component logically
+ 4) binding: ho view and component communicate
+ 5) Diretcives: chnage HTML DOM behaviour
+ 6) Services: help to share common logic across the project
+ 7) DI: help to inject instance across constructor
+
+
+ ** SPA (Single Page application)
+  - where main UI gets loaded once and then UI is loaded on demand.
+
+** How to implement routing.
+   1) Need collections
+ export const = [
+   {path:'', component:''}
+ ]
+  2) router outlet
+  3) 
+
+
+** What is lazy loading in angular.
+ - On demand loading
+
+  1) Divide project into modules.
+  2) use loadchildren() in route collections
+
+** What are the services in agular.
+  - service helps you to share common logic across angualr application.
+
 
 
 

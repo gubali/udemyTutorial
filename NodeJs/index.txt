@@ -64,3 +64,35 @@ User Created modules
 
 File system operation:
 fs.open(callback, flag, mode, callback)
+
+Callback/events
+Event Emitter and Event Subscriber
+EventEmitter class event and propertiws
+
+ generate the event and js callback responsible for handle.
+
+ EventEmitter -> Event Q(maintain q of events) -> event loop -> Event Handler (js event handler)
+
+
+=========================================================Wilearn Noed js ===================================================================================
+Callback: compared to a function
+Callback function: Particular fucntion to be called 
+CallBack: Request adn reply
+events: publisher-subscribe
+
+Publisher emits event: emitter.emit(event, [arg]);   event = string 
+Subscriber for event: emitter..on(event,listener)
+
+
+File System:
+
+stream: stream are object help to read or write date to a distination is continous fashiion manner.
+Readable: Read operation
+Writable: Write operation
+Duplex: both Read and write
+Transform: output is computed based on the input.
+
+
+**Node js module:
+Module: libraries of java function.
+ - modualr organization
