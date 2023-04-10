@@ -1,0 +1,10 @@
+If you want create multiple nested project:
+
+1) npm install -g @angualr/CLI
+2) ng new project_name
+ng new MultipleApps --createApplication="false"
+cd MultipleApps  
+ng generate application project_name
+ng serve --project="angular-master-course"
+
+ng g c folder_name --project="project_name"  // this for generate specific compnet in side muotiple project archeticeture

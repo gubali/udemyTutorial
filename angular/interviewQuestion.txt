@@ -113,5 +113,47 @@ chek type script version: tsc --version
   - service helps you to share common logic across angualr application.
 
 
+** Depedency injection
+ - application design pattern where rather than creating object instance from within the component, angular inject it via the constructer.
+ Provider property belong to @NgModule.
 
+ DI benefits: 
+ - Decouple the class depedencies, chnage it one palace not to diff palace.
+
+ ** Dfifference b/w ng build nd ng serve.
+  - ng server build in memory(RAM)
+
+  - ng build: build on the hard disk
+
+
+** Explain the --prod parameter in ng build.
+  - compress your js , remove comments, c reate GUID of js for ready for production
+
+
+**************************************** PART 2 ******************************************
+
+1) ** Explain ViewChild and ViewChildren.
+   - help to reference elemennt of the view
+  - If single html DOM use "VIEW CHILD".
+  - If collection of elements use "VEIW CHILDREN"
+  @VeiwChild('div1', {static:false}) divref:ElementRef
+
+2) ** What is template reference variable.
+  - refer html dom element.
+
+3) what is content projection.
+ - display text from one compoent view to other component view.
+  - componet 1 view: <b slot1>Welcome </b>
+  - component 2 view: <ng-content select="slot1"> </ng-content>
+       o/p = Welcome
+
+ 4) what is content projection slot.
+   - 
+
+5) What is content Child and content children.
+  - contentChild: single projected content.
+  - contentChildren: access  collections of projected content
+  - help to access projected contents from parent component.
+
+************************* PART 3************************************
 

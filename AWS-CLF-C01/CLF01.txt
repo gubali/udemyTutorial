@@ -57,5 +57,98 @@ AWS Global Infrastructure:
  12) Tour of the console & Service: 
    
 Section 4: IAM (Identity and access managemnt)
-Policies: user or group can be assign JSON docuemnt called Policies + define Policies
+riePolicies: user or group can be assign JSON docuemnt called Policies + define Policies
  
+
+=============== EBS =============
+
+Elastic block stored
+persist data
+
+volume: can not attache a to b
+link with avalability zones
+
+Hands on
+
+EBS snapshot: backup
+
+#!/bin/bash
+yum update -y
+yum instal -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello from $(hostname -f)</h1>"
+
+Ec2 image builder:
+create virtual machine
+ * An image recipe is a document that defines the components to be applied to the base images to create the desired configuration for the output image. After a recipe has been created, it cannot be modified. A new version must be created in order to change components.
+
+EFS: Elastic File system
+NFS: Network file system
+work only linux ec2 in multi-AZ
+EFS-IA: RFS Irfrequent access
+
+Fsx = 3rd party high performance file system on aws
+
+
+=====> Section 7: ELB & ASG - Elastic Load Balancing & Auto Scaling Groups
+
+scalibility: handle greater loads
+
+types: vertical 
+  1- increae size the insatnces  (up and down)
+  exp: call center
+
+  2-  horizontal(elasticity)
+   - increasing the number of insatnces
+   - distributed systems
+
+hogh avalibility: horizontal Scaling
+  - ruuning application in atleat 2 zone (multi AZ)
+
+  Scalibility: larger  load by making hardware stronger (scale up)
+  
+  Elasticity: some auto scaling system can scale based on the laod.
+  cloud friendly
+
+  Agility: reduce time to thoswe resource avaliable.
+
+
+Load balancing: 
+forward internet tarffic to multiple servers  downstream
+
+ Type of load balencer:
+ - application load balancer => ALB(HTTP/HTTPs - layer 7)
+ - Network load baalncer ultra high perodrmance - TCP- layer 4
+ - Classisc load balancer
+
+
+
+Auto scaling Group:
+
+
+=======> S2 =========>
+
+infinitely storage
+
+use case:
+ - backup and staoarge
+ - disaster recovry
+ - archive
+
+ object: files
+ bucket: directories
+ buckert: regional level
+
+ size object: 5TB(5000GB)
+ 5GB: multi part upload
+
+ s3 security:
+  1- User based 
+    : IAM
+ 2- Resource based 
+  - buket policies
+  - object access control list
+  - bucket access control list
+  3- Encryption
+

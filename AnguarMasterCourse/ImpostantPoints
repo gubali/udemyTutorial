@@ -1,0 +1,41 @@
+1) Type script: more fetaure like (Type, classes, interface).
+2) main.ts: exceute first code.
+3) platformBrowserDynamic().bootstrapModule(AppModule): bootsrap start our application by passing app
+ 4) bootstrap: [AppComponent]: list of all component.
+
+ 5) main.ts => angular bootstrap started pass module as argument => AppModule pass => bootstrap: [AppComponent] => analayse the  module => angular handle app-root in inedx.html
+
+ **************** Folder Structure *********************
+  1) e2e
+  2) node_modules
+  3) scr
+    3.1) App
+    3.2) assets
+    3.3) environemnt
+    3.4) 
+  4) 
+
+************end********************
+
+6) Conmponent:
+   1) Key feature in  angular followed by @Component.
+   2) 
+
+selector: render view of html page.
+[] in ts
+
+
+*** Data binding *****
+Databinding = communication => business logic with template (HTML)
+
+======= Out put ======>
+string interpolation: {{data}}
+Property binding: [property]="data"
+
+[disabled]=""
+
+<============react to user events=====
+
+Event binding= (event)="expression"
+
+
